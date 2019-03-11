@@ -5,7 +5,7 @@
 #define main_platform 0
 
 #define max_devices 10
-#define main_device 1
+#define main_device 0
 
 #define max_files 1024
 #define max_filename_sz 256

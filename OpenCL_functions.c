@@ -8,7 +8,7 @@
 #include "OpenCL_functions.h"
 #include "General_functions.h"
 
-inline void checkErr(cl_int err, const char * name){
+void checkErr(cl_int err, const char * name){
 	if (err != CL_SUCCESS) {
 		if(err == CL_MEM_OBJECT_ALLOCATION_FAILURE)printf("CL_MEM_OBJECT_ALLOCATION_FAILURE\n");
 		/*else if(err == CL_OUT_OF_HOST_MEMORY)printf("CL_OUT_OF_HOST_MEMORY\n");

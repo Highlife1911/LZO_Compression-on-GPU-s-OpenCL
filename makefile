@@ -1,4 +1,4 @@
-path=/usr/local/cuda-6.0/targets/x86_64-linux/include
+path=/usr/local/cuda/include
 #Chnage path according to location of OpenCL installation path on your particular machine
 
 all: Main.o OpenCL_functions.o General_functions.o
